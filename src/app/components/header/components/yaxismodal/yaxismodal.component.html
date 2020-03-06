@@ -1,0 +1,12 @@
+<p>Select Vertical Axis</p>
+
+<div class="axis-selection">
+<div class="menu">
+    <ng-container *ngFor="let key of yarray">
+        <button (click)="onVerticalAxisSelect(key)"
+            [ngClass]="{ 'selected': key === getSelectedVerticalAxis() }">{{key}}&nbsp;&nbsp;
+            <fa-icon *ngIf=" key === getSelectedVerticalAxis() " [icon]="faCheck"></fa-icon>
+        </button>
+    </ng-container>
+</div>
+</div>

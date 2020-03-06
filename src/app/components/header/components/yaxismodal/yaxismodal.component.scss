@@ -1,0 +1,29 @@
+.menu {
+    text-align: center;
+    margin-left: 14%;
+  }
+
+  .menu button {
+    display: block;
+    text-align: center;
+    padding: 0.8em;
+    margin: 1em 0 1em 0;
+    width: 300px;
+    font-weight: bold;
+    font-size: medium;
+    background: #b5b3b3;
+    border: none;
+    color: #fff;
+  }
+
+  .axis-selection {
+    padding: 1em;
+    width: 100px;
+    margin: 2%;
+    background: #fff;
+    display: inline-flex;
+  }
+
+  .selected{
+    background-color: lightseagreen !important;
+}

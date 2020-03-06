@@ -1,0 +1,11 @@
+<p>Select Horizontal Axis</p>
+
+<div class="axis-selection">
+    <div class="menu">
+        <ng-container *ngFor="let key of xarray">
+            <button (click)="onHorizontalAxisSelect(key)"
+                [ngClass]="{ 'selected': key === getSelectedHorizontalAxis() }">{{key}} &nbsp;&nbsp;
+                <fa-icon *ngIf=" key === getSelectedHorizontalAxis() " [icon]="faCheck"></fa-icon></button>
+        </ng-container>
+    </div>
+</div>

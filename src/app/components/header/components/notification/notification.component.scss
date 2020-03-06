@@ -1,0 +1,41 @@
+.notification {
+  width: 80px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+position: relative;
+  text-align: center;
+  margin-top: 5px;
+  .no{
+    position: absolute;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#FFCC2E;
+    top:-10px;
+    right:18px;
+  }
+}
+@media screen and (max-width:300px){
+  .notification{
+    width: 50px;
+    margin-bottom: 23px;
+  }
+  app-notification{
+    display: inline-flex;
+    margin-top: 0;
+    flex-wrap: wrap;
+    margin-top: -25px;
+  }
+}
+
+@media screen and (max-width:800px){
+.notification{
+  margin-top: 10px;
+}
+}
+
+@media screen and (max-width:1000px){
+  .notification{
+    margin-top: 15px;
+  }
+  }

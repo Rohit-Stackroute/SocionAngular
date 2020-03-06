@@ -1,0 +1,52 @@
+@media (min-width: 900px) {
+  .filter-component {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+}
+  
+  .noresult {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    color: lightslategrey;
+    padding: 5px;
+  }
+  
+  .clear, .apply {
+    height: max-content;
+    background-color: #8C7FEE;
+    color: white;
+    font-size: inherit;
+    border: none;
+    width: 90px;
+    margin-top: 8px;
+    padding: 0.6em;
+    border-radius: 50px;
+    margin-left: 1em;
+  }
+
+  @media screen and  (max-width: 900px){
+    .clear, .apply{
+          margin-left: 20px;
+      }
+  }
+  
+  .input-dropdown {
+    margin-left: 20px;
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .input-dropdown {
+      margin-left: 10px;
+      max-width: 150px;
+    }
+  }
+
+  // ::ng-deep .cdk-overlay-container {
+  //   z-index: unset !important;
+  // }

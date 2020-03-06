@@ -1,0 +1,33 @@
+<div class="sidenav">
+    <div class="logo">
+        <!-- 
+        <img src="../../../assets/images/logo.png" alt="SKS" /> -->
+    </div>
+    <div class="sidenavbar">
+
+        <div class="menu" appMenuactive [routerLink]="['/dashboard']" [routerLinkActive]="['selected']">
+            <p class="menuicons">
+                <fa-icon [icon]="faTh"></fa-icon>
+            </p><span>
+                Dashboard
+            </span>
+        </div>
+
+        <div class="menu" appMenuactive [routerLink]="['/reports/select']" [routerLinkActive]="['selected']">
+            <p class="menuicons">
+                <fa-icon [icon]="faTachometerAlt"></fa-icon>
+            </p><span>
+                Metrics
+            </span>
+        </div>
+
+        <div class="menu" appMenuactive [routerLink]="['/reports/favourite']" [routerLinkActive]="['selected']">
+            <p class="menuicons">
+                <fa-icon [icon]="faStar"></fa-icon>
+            </p><span>
+                Favorites
+            </span>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,48 @@
+.sidenav {
+        max-width:90px;
+        width:90px;
+        background: #fff;
+        position: fixed;
+        top:0;
+        height:100%;
+        border-right:1px solid #f2f2f2;
+       .logo{
+           margin :2em 0.31em;
+           border-bottom: 1px solid #f2f2f2;
+           img{
+                   width:100%
+           }
+
+        }
+        .sidenavbar{
+                margin-top: 3.5em;
+          fa-icon{
+            font-size:2em
+          }
+                .menu.active{
+                        border-right: 4px solid #8C7FEE;
+                }
+                .menu.selected{
+                        border-right: 4px solid #8C7FEE;
+                        fa-icon{
+                          color : #8C7FEE
+                        }
+                        span{
+                          color: #8C7FEE
+                        }
+                }
+
+               .menu{
+                       text-align:center;
+                       color: #C2C2C2;
+                       padding: 1em 0;
+                       outline: none;
+
+                       cursor: pointer;
+                       span{
+                        font-size:0.8em;
+                       }
+                }
+        }
+
+}
